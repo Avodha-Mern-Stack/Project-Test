@@ -86,13 +86,13 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <h1>📦 Inventory Management</h1>
+        <h1>📦 Inventory Management System</h1>
         
         {error && <div className="error-message">{error}</div>}
         
         <div className="content">
           <div className="add-section">
-            <h2>Add New Item</h2>
+            <h2>Add New Product</h2>
             <AddItem onAdd={addItem} />
           </div>
 

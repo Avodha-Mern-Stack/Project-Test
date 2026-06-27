@@ -27,4 +27,5 @@ app.use("/api/items", require("./routes/items"));
 
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
+  console.log("Server is Running on Test Purpose")
 });
